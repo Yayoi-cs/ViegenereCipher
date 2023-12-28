@@ -28,8 +28,8 @@ func decryptVigenere(cipherText, key string) string {
 	return string(decrypted)
 }
 func main() {
-	key := "CYLAB"
-	cipherText := "rgnoDVD{O0NU_WQ3_G1G3O3T3_A1AH3S_f85729e7}"
+	key := "agfl"
+	cipherText := "pohzCZK{m311a50_0x_a1rn3x3_h1ah3x6kp60egf}"
 	plainText := decryptVigenere(cipherText, key)
 	fmt.Println("Result :" + plainText)
 }
